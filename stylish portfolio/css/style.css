@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 15rem 0;
+
+}
+
+.first h1 {
+    color: #212529;
+    font-size: 64px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.first h3 {
+    color: #212529;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+
+.first a {
+    color: #ffffff;
+    background-color: #1d809f;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.second {
+    text-align: center;
+    padding: 7rem;
+}
+
+.second h2 {
+    color: #212529;
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.second p {
+    color: #212529;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    
+}
+
+.second a {
+    color: #ffffff;
+    background-color: #23272b;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.third {
+    background-color: #1d809f;
+    padding: 5rem 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.third-text h3 {
+    font-size: 16px;
+    color: #ecb807;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.third-all {
+    margin-top: 30px;
+}
+
+.third-text h2 {
+    font-size: 48px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+.third-all .box {
+    width: 25%;
+    float: left;
+}
+
+.third-all .birinci {
+    font-size: 30px;
+    color: #1d809f;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 100%;
+}
+
+.third-all .ikinci {
+    font-size: 30px;
+    color: #1d809f;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 100%;
+
+}
+
+.third-all .ucuncu {
+    font-size: 30px;
+    color: #1d809f;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 100%;
+
+}
+.third-all .dorduncu {
+
+    font-size: 30px;
+    color: #1d809f;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 100%;
+
+
+
+}
+
+
+
+
+
+.third-all .box h4 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.third-all .box p {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.myicon {
+position: fixed;
+right: 25px;
+top: 25px;
+color: #ffffff;
+font-size: 20px;
+background-color: #c1c1c1;
+padding: 10px 13px;
+cursor: pointer;
+}
+
+
+.fourth {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 12rem 0;
+    text-align: center;
+}
+
+.fourth h2 {
+    font-size: 56px;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 50px;
+
+}
+.fourth a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1d809f;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
+.fifth-text h3 {
+    font-size: 16px;
+    color: #ecb807;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fifth-text h2 {
+    font-size: 48px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fifth-text {
+    text-align: center;
+}
+
+.fifth {
+    padding: 6rem 0;
+}
+
+.fifth-all {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+
+.fifth .box {
+    width: 50%;
+    float: left;
+position: relative;
+
+
+}
+
+.box .box-test {
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+    z-index: 989;
+}
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d809f;
+    position: absolute;
+    opacity: 0;
+}
+
+
+.box .box-test h2 {
+    color: #ffffff;
+}
+
+.box-test  p{
+    color: #ffffff;
+    
+}
+
+.fifth-all .box img{
+    width: 100%;
+}
+
+.fifth-all .box: :hover .overlay {}
